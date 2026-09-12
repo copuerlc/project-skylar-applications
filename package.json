@@ -1,0 +1,18 @@
+{
+  "name": "project-skylar-applications",
+  "version": "1.0.0",
+  "description": "Professional Discord application bot for Project Skylar.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1"
+  }
+}
